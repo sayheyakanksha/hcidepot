@@ -4,7 +4,7 @@
 
 The HCI Capstone Inspiration /depot (HCI/d : get it?) is a digital library showcasing past capstone projects completed by second-year graduate students in the [Human-Computer Interaction/design (HCI/d) program](https://informatics.indiana.edu/programs/ms-hci.html) at the Luddy School of Informatics, Computing, and Engineering at [Indiana University Bloomington](https://bloomington.iu.edu/index.html). These projects are part of the I694 HCI/d Capstone Thesis course, which students take during their final semester. Currently, there is no centralized archive for these projects, and this collection aims to fill that gap by providing easy access to digitized versions of posters, project documentation, and design prototypes.
 
-## Content 
+## Content
 
 The collection contains a variety of materials such as: 
 - Posters: Digitized versions of physical posters from past capstone projects. Most posters will be digitized in PNG format to ensure high-quality representation, especially for text-heavy and graphic-intensive content. However, recent posters may be shared directly by students in PDF or JPG formats.
@@ -13,7 +13,7 @@ The collection contains a variety of materials such as:
 
 Most of the project resources are shared by students in JPG and PDF formats with copyright permissions. Additionally, some physical materials, currently stored in the HCI/d Studio in Myles Brand Hall, will be digitized after obtaining permission from the students who created them. These materials will be made available for online browsing and searching as part of the collection.
 
-## Users 
+## Users
 
 The primary audience for this collection includes: 
 - First-year HCI/d students: This resource will assist students as they begin planning their own capstone projects by providing inspiration and insights into what has been done before.
@@ -28,12 +28,11 @@ This collection was created by [Akanksha](https://www.linkedin.com/in/sayheyakan
 
 ## Copyright
 
-All the capstone material shared in this digital library are owned by their student creators. 
-
-
+All capstone materials shared in this digital library are owned by their respective student creators. The code used for this project is owned by the CollectionBuilder team. For more information on licensing, please refer to the [License](#license) section.
 
 
 ----------
+
 
 # Technical Details
 

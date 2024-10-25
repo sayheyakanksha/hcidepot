@@ -28,7 +28,7 @@ This collection was created by [Akanksha](https://www.linkedin.com/in/sayheyakan
 
 ## Copyright
 
-All capstone materials shared in this digital library are owned by their respective student creators. The code used for this project is owned by the CollectionBuilder team. For more information on licensing, please refer to the [License](#license) section.
+All capstone materials shared in this digital library are owned by their respective student creators. The code used in this project is owned by the [Collection Builder](https://collectionbuilder.github.io/) team. For more information on licensing, please refer to the [License](#license) section.
 
 
 ----------

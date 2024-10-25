@@ -53,7 +53,7 @@ def process_and_optimize_image(filename, file_type, output_filename, size, densi
     begin
       if file_type == :pdf
         inputfile = "#{filename}[0]"
-        magick = MiniMagick::Tool::Convert.new
+        magick = MiniMagick::Tool::Magick.new
         magick.density(density)
         magick << inputfile
         magick.resize(size)

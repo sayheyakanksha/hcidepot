@@ -1,29 +1,45 @@
-# CollectionBuilder-CSV
+# HCI Capstone Inspiration /depot
 
-CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server (or built automatically using GitHub Actions).
+## Context
 
-Visit the [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) for step-by-step details for getting started and building collections!
+The HCI Capstone Inspiration /depot (HCI/d : get it?) is a digital library showcasing past capstone projects completed by second-year graduate students in the [Human-Computer Interaction/design (HCI/d) program](https://informatics.indiana.edu/programs/ms-hci.html) at the Luddy School of Informatics, Computing, and Engineering at [Indiana University Bloomington](https://bloomington.iu.edu/index.html). These projects are part of the I694 HCI/d Capstone Thesis course, which students take during their final semester. Currently, there is no centralized archive for these projects, and this collection aims to fill that gap by providing easy access to digitized versions of posters, project documentation, and design prototypes.
 
-## Brief Overview of Building a Collection
+## Content 
 
-The [CollectionBuilder Docs](https://collectionbuilder.github.io/cb-docs/) contain detailed information about building a collection from start to finish--including installing software, using Git/GitHub, preparing digital objects, and formatting metadata.
-However, here is a super quick overview of the process:
+The collection contains a variety of materials such as: 
+- Posters: Digitized versions of physical posters from past capstone projects. Most posters will be digitized in PNG format to ensure high-quality representation, especially for text-heavy and graphic-intensive content. However, recent posters may be shared directly by students in PDF or JPG formats.
+- Project Documentation: Detailed reports, design prototypes, and research findings (when available) in PDF format. 
+- Other Project Artifacts: Video demonstrations or supplementary materials from recent capstone projects, provided as external links.
 
-- Make your own copy of this template repository by clicking the green "Use this Template" button on GitHub (see [repository set up docs](https://collectionbuilder.github.io/cb-docs/docs/repository/)). This copy of the template is the starting point for your "project repository", i.e. the source code for your digital collection site!
-- Prepare your collection metadata following the CB-CSV template (see our demo [metadata template on Google Sheets](https://docs.google.com/spreadsheets/d/1nN_k4JQB4LJraIzns7WcM3OXK-xxGMQhW1shMssflNM/edit?usp=sharing) and [metadata docs](https://collectionbuilder.github.io/cb-docs/docs/metadata/csv_metadata/)). Your metadata will include links to your digital files (images, pdfs, videos, etc) and thumbnails wherever they are hosted.
-- Add your metadata as a CSV to your project repository's "_data" folder (see [upload metadata docs](https://collectionbuilder.github.io/cb-docs/docs/metadata/uploading/)).
-- Edit your project's "_config.yml" with your collection information (see [site configuration docs](https://collectionbuilder.github.io/cb-docs/docs/config/)). Additional customization is done via a theme file, configuration files, CSS tweaks, and more--however, once your "_config.yml" is edited your site is ready to be previewed. 
-- Generate your site using Jekyll! (see docs for how to [use Jekyll locally](https://collectionbuilder.github.io/cb-docs/docs/repository/generate/) and [deploy on the web](https://collectionbuilder.github.io/cb-docs/docs/deploy/))
+Most of the project resources are shared by students in JPG and PDF formats with copyright permissions. Additionally, some physical materials, currently stored in the HCI/d Studio in Myles Brand Hall, will be digitized after obtaining permission from the students who created them. These materials will be made available for online browsing and searching as part of the collection.
 
-Please feel free to ask questions in the main [CollectionBuilder discussion forum](https://github.com/CollectionBuilder/collectionbuilder.github.io/discussions).
+## Users 
+
+The primary audience for this collection includes: 
+- First-year HCI/d students: This resource will assist students as they begin planning their own capstone projects by providing inspiration and insights into what has been done before.
+- Faculty members: Advisors who mentor HCI/d students can use the collection to refer to past work as examples for guidance. 
+- Prospective students: Those interested in the HCI/d program can explore the collection to understand the scope of work undertaken by current and former students. 
+- Researchers: Individuals studying trends or developments in HCI can use the collection as a source for research on capstone project topics and methodologies.
+
+## About the Creator
+
+This collection was created by [Akanksha](https://www.linkedin.com/in/sayheyakanksha/), a second-year MS HCI/d student (Class of 2025). The project was developed as part of the Z652 Digital Libraries course, taught by [Professor A. John Walsh](https://jawalsh.github.io/). Special thanks to [Professor Colin M Gray](https://colingray.me/) for their invaluable support and guidance in bringing this idea to life.
+
+
+## Copyright
+
+All the capstone material shared in this digital library are owned by their student creators. 
+
+
+
 
 ----------
 
+# Technical Details
+
 ## CollectionBuilder 
 
-<https://collectionbuilder.github.io/>
+This digital library is made using [Collection Builder](https://collectionbuilder.github.io/) which is an an open source framework for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
 
 CollectionBuilder is a project of University of Idaho Library's [Digital Initiatives](https://www.lib.uidaho.edu/digital/) and the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu) (CDIL) following the [Lib-Static](https://lib-static.github.io/) methodology. 
 Powered by the open source static site generator [Jekyll](https://jekyllrb.com/) and a modern static web stack, it puts collection metadata to work building beautiful sites.
@@ -32,7 +48,9 @@ The basic theme is created using [Bootstrap](https://getbootstrap.com/).
 Metadata visualizations are built using open source libraries such as [DataTables](https://datatables.net/), [Leafletjs](http://leafletjs.com/), [Spotlight gallery](https://github.com/nextapps-de/spotlight), [lazysizes](https://github.com/aFarkas/lazysizes), and [Lunr.js](https://lunrjs.com/).
 Object metadata is exposed using [Schema.org](http://schema.org) and [Open Graph protocol](http://ogp.me/) standards.
 
-Questions can be directed to **collectionbuilder.team@gmail.com**
+## CollectionBuilder-CSV
+
+This websites is built using one of their templates, called [CollectionBuilder-CSV](https://collectionbuilder.github.io/csv/) which is their most robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
 
 ## License
 

@@ -1,14 +1,23 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
+course,Course,,,DCTERMS.coverage,
+date,Year,,,DCTERMS.date,dateCreated
+term,Semester,,,DCTERMS.coverage,
+capstone_advisors,Capstone Advisors,,,DCTERMS.contributor,
+associate_instructors,Associate Instructors,,,DCTERMS.contributor,
+thesis,Thesis,,true,DCTERMS.relation,
 subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
+prototype_link,Prototype Link,,true,DCTERMS.relation,
+project_type,Project Type,,true,DCTERMS.subject,
+project_theme,Project Theme,,true,DCTERMS.subject,
+industry_application,Industry Application,,true,DCTERMS.subject,
+user_groups,User Groups,,true,DCTERMS.subject,
+degree_book,Graduate Degree Book,,true,DCTERMS.relation,
+source,Source,,,DCTERMS.source,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
+language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license

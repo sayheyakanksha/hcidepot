@@ -8,26 +8,18 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://informatics.indiana.edu/images/programs/programs-informatics-hci-sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV;About the About Page" %}
+{% include feature/nav-menu.html sections="About HCI /depot;People;Copyright" %}
 
-## About CollectionBuilder CSV
+## About HCI /depot
 
-Creator: Akanksha
-working properly now? 
-Still Checking
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The HCI Capstone Inspiration /depot *(HCI/d : get it?)* is a digital library showcasing past capstone projects completed by second-year graduate students in the [Human-Computer Interaction/design (HCI/d) program](https://informatics.indiana.edu/programs/ms-hci.html) at the [Luddy School of Informatics, Computing, and Engineering](https://luddy.indiana.edu/index.html) at [Indiana University Bloomington](https://bloomington.iu.edu/index.html). These projects are part of the I695 HCI/d Capstone Thesis course, which students take during their final semester. Currently, there is no centralized archive for these projects, and this collection aims to fill that gap by providing easy access to digitized versions of posters, project documentation, and design prototypes.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+## People
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+This collection was created by [Akanksha](https://www.linkedin.com/in/sayheyakanksha/), a second-year MS HCI/d student (Class of 2025). The project was developed as part of the Z652 Digital Libraries course, taught by [Professor A. John Walsh](https://jawalsh.github.io/). Special thanks to [Professor Colin M Gray](https://colingray.me/) for their invaluable support and guidance in bringing this idea to life.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+## Copyright
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
+All capstone materials shared in this digital library are owned by their respective HCI/d student creators. The code used in this project is owned by the [Collection Builder](https://collectionbuilder.github.io/) team. 

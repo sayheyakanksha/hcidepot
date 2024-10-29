@@ -2,33 +2,3 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
-
-@font-face {
-    font-family: 'Benton Sans';
-    src: url('/assets/fonts/bentonsans-ttf/BentonSans-Regular_T.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Benton Sans';
-    src: url('/assets/fonts/bentonsans-ttf/BentonSans-Bold_T.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Benton Sans';
-    src: url('/assets/fonts/bentonsans-ttf/BentonSans-Italic_T.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-  }
-  
-
-  body {
-    font-family: 'Benton Sans', sans-serif;
-  }
-  .bold-text {
-    font-weight: bold;
-  }
-  .italic-text {
-    font-style: italic;
-  }

@@ -10,7 +10,7 @@
 # site domain, full URL to the production location of your collection
 url: https://sayheyakanksha.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /hci-depot
+baseurl: /hcidepot
 # location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 
@@ -18,7 +18,7 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: HCI/depot
+title: HCI /depot
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: A collection of capstone projects from past HCI/d students.
 # description appears in meta tags and other locations
@@ -52,7 +52,7 @@ metadata: hcidepot
 #
 organization-name: "Human-Computer Interaction/design"
 organization-link: https://informatics.indiana.edu/programs/ms-hci.html
-organization-logo-banner: /assets/img/hcid-logo.png
+organization-logo-banner: /assets/img/hcid-logo-nav.png
 organization-logo-nav: /assets/img/hcid-logo.png
 
 ##########

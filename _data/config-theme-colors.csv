@@ -1,5 +1,5 @@
 color_class,color
-primary,#990000
+primary,#243142
 secondary,#990000
 success,#990000
 info,
@@ -7,3 +7,6 @@ warning,
 danger,
 light,
 dark,#800000
+iu-dark,#243142
+iu-crimson,#900
+iu-link,#006298

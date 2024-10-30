@@ -10,9 +10,6 @@ The PDF document below provides information on the context, content, intended us
 
 You can also view this project's MAP in a table format here: [metadata application profile](metadata-profile.html).
 
-{% include feature/pdf.html objectid="https://www.lib.uidaho.edu/collectionbuilder/demo-objects/uiext21768.pdf" width="100" caption="Metadata Application Profile Documentation" %}
-
-
-{% include feature/pdf.html objectid="https://sayheyakanksha.github.io/hcidepot/objects/capstone_poster_2024_002.pdf" width="100" caption="Metadata Application Profile Documentation" %}
+{% include feature/pdf.html objectid="https://sayheyakanksha.github.io/hcidepot/assets/pdf/metadataapplicationprofile.pdf" width="100" caption="Metadata Application Profile Documentation" %}
 
 

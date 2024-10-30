@@ -10,7 +10,7 @@ credits: false
 
 {% include feature/jumbotron.html objectid="https://informatics.indiana.edu/images/programs/programs-informatics-hci-sm.jpg" %} 
 
-{% include feature/nav-menu.html sections="Akanksha;John A. Walsh;Colin M. Gray;Special Thanks" %}
+{% include feature/nav-menu.html sections="Akanksha;John A. Walsh;Colin M. Gray;Austin Toombs;Special Thanks" %}
 
 ## Creator
 
@@ -28,7 +28,9 @@ credits: false
 
 [Colin M. Gray (they/them)](https://colingray.me/) is an Associate Professor in the [Luddy School of Informatics, Computing, and Engineering](https://luddy.indiana.edu/index.html) at [Indiana University Bloomington](https://bloomington.iu.edu/index.html), where they serve as Director of the [Human-Computer Interaction design (HCI/d) program](https://informatics.indiana.edu/programs/ms-hci.html). They are also an instructor for the I695 Thesis/Project in Human-Computer Interaction course. Colin facilitated contact with past HCI/d students and provided access to the physical archives of past capstone projects, helping bring this digital archive to life.
 
-
+### Austin Toombs
+[Austin Toombs (he/him)](https://austintoombs.com/) is an Associate Professor in the [Luddy School of Informatics, Computing, and Engineering](https://luddy.indiana.edu/index.html) at [Indiana University Bloomington](https://bloomington.iu.edu/index.html). Austin came up with the name for this collection, and he earned a special mention here.
+ 
 ## Special Thanks
 
 A huge shoutout to all HCI/d students who agreed to showcase their amazing work in this digital collection and provided the materials featured here. This site wouldn’t be possible without all their hard work and creativity!

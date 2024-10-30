@@ -3,8 +3,11 @@ Home,/,
 Browse,/browse.html,
 Subjects,/subjects.html,
 Timeline,/timeline.html,
-Data,/data.html,
+Data,,
+Data,/data.html,Data
+Documentation,/documentation.html,Data
+Metadata Profile,/metadata-profile.html,Data
 About,,
 About HCI /depot,/about.html,About
+People,/people.html,About
 Technical Details,/tech-details.html,About
-Metadata Profile,/metadata-profile.html,About

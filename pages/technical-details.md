@@ -26,5 +26,3 @@ Object metadata is exposed using [Schema.org](http://schema.org) and [Open Graph
 This websites is built using one of their templates, called [CollectionBuilder-CSV](https://collectionbuilder.github.io/csv/) which is their most robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
 
 See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-<!-- {% include feature/image.html objectid="demo_001" width="75" %}  -->

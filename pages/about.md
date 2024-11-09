@@ -3,7 +3,7 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
@@ -18,7 +18,9 @@ The HCI Capstone Inspiration /depot *(HCI/d : get it?)* is a digital library sho
 
 For a more extensive overview of this collection, please explore these sections:
 
-- [about: people](people.html)
+- [about: I695 capstone thesis course](i695-capstone-thesis.html)
+- [about: capstone advisors](capstone-advisors.html)
+- [about: contributors](contributors.html)
 - [about: technical details](tech-details.html)
 - [data: documentation](documentation.html)
 - [data: metadata application profile](metadata-profile.html)

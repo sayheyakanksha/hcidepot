@@ -1,6 +1,8 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
+date,Year,,,Date
 creator,Creator,,,
 subject,,true
+project_type,,true
+project_theme,,true
 location,,true
 identifier,,,true,Identifier

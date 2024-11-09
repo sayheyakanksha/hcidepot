@@ -2,7 +2,7 @@
 {%- assign types = "image;audio;video;pdf;panorama;record;compound_object;multiple" | split: ";" -%}
 <div class="card mb-3" >
   <div class="card-body">
-    <h2 class="card-title h5">Objects</h2>
+    <h2 class="card-title h5">Data</h2>
     <p class="card-text">
       {% for t in types %}
       {%- assign count = templates | where_exp: 'item','item contains t' | size -%}
@@ -30,7 +30,7 @@
       {%- endcase -%}
       {%- endif -%}
       {%- endfor -%}
-      <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">View table</a>
+      <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">View Projects</a>
     </p>
   </div>
 </div>

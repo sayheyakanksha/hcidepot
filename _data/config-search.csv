@@ -4,4 +4,7 @@ date,true,true
 creator,true,false
 description,true,true
 subject,true,true
-location,true,false
+project_type,true,true
+project_theme,true,true
+capstone-industry-application,true,true
+capstone-theme,true,true

@@ -7,8 +7,9 @@ warning,
 danger,
 light,
 dark,
-iu-dark,#243142
-iu-crimson,#900
+iu-black,#243142
+iu-crimson,#990000
 iu-maroon,#800000
-iu-link,#006298
+iu-blue,#006298
+iu-cream,#ffffff
 

@@ -2,3 +2,103 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+@font-face {
+    font-family: BentonSansRegular;
+    src: url("https://fonts.iu.edu/fonts/benton-sans-regular.eot");
+    src: url("https://fonts.iu.edu/fonts/benton-sans-regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.iu.edu/fonts/benton-sans-regular.woff") format("woff"),url("https://fonts.iu.edu/fonts/benton-sans-regular.ttf") format("truetype"),url("https://fonts.iu.edu/fonts/benton-sans-regular.svg#BentonSansRegular") format("svg");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: BentonSansBold;
+    src: url("https://fonts.iu.edu/fonts/benton-sans-bold.eot");
+    src: url("https://fonts.iu.edu/fonts/benton-sans-bold.eot?#iefix") format("embedded-opentype"),url("https://fonts.iu.edu/fonts/benton-sans-bold.woff") format("woff"),url("https://fonts.iu.edu/fonts/benton-sans-bold.ttf") format("truetype"),url("https://fonts.iu.edu/fonts/benton-sans-bold.svg#BentonSansBold") format("svg");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: BentonSansCondRegular;
+    src: url("https://fonts.iu.edu/fonts/benton-sans-cond-regular.eot");
+    src: url("https://fonts.iu.edu/fonts/benton-sans-cond-regular.eot?#iefix") format("embedded-opentype"),url("https://fonts.iu.edu/fonts/benton-sans-cond-regular.woff") format("woff"),url("https://fonts.iu.edu/fonts/benton-sans-cond-regular.ttf") format("truetype"),url("https://fonts.iu.edu/fonts/benton-sans-cond-regular.svg#BentonSansCondRegular") format("svg");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: BentonSansCondBold;
+    src: url("https://fonts.iu.edu/fonts/benton-sans-cond-bold.eot");
+    src: url("https://fonts.iu.edu/fonts/benton-sans-cond-bold.eot?#iefix") format("embedded-opentype"),url("https://fonts.iu.edu/fonts/benton-sans-cond-bold.woff") format("woff"),url("https://fonts.iu.edu/fonts/benton-sans-cond-bold.ttf") format("truetype"),url("https://fonts.iu.edu/fonts/benton-sans-cond-bold.svg#BentonSansCondBold") format("svg");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: GeorgiaProBoldItalic;
+    src: url("https://fonts.iu.edu/fonts/georgia-pro-bold-italic.eot");
+    src: url("https://fonts.iu.edu/fonts/georgia-pro-bold-italic.eot?#iefix") format("embedded-opentype"),url("https://fonts.iu.edu/fonts/georgia-pro-bold-italic.woff") format("woff"),url("https://fonts.iu.edu/fonts/georgia-pro-bold-italic.ttf") format("truetype"),url("https://fonts.iu.edu/fonts/georgia-pro-bold-italic.svg#GeorgiaProBoldItalic") format("svg");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400
+}
+/* Add additional styles as needed */
+
+body {
+    font-family: BentonSansRegular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: BentonSansBold,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #243142;
+    text-rendering: optimizeLegibility;
+    // margin-top: 0;
+    // margin-bottom: 1.25rem;
+    line-height: 1.15
+}
+
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
+    color: #404041;
+    line-height: 0
+}
+
+h1 {
+    font-size: 2.25rem
+}
+
+h2 {
+    font-size: 1.625rem
+}
+
+h3 {
+    font-size: 1.5rem
+}
+
+h4 {
+    font-size: 1.25rem
+}
+
+h5 {
+    font-size: 1.125rem
+}
+
+h6 {
+    font-size: 1rem
+}
+
+p {
+    font-size: 1.125rem
+}
+
+// p {
+//     font-size: .875rem !important
+// }

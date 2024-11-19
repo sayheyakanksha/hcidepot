@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Capstone Thesis
 layout: about
 permalink: /i695-capstone-thesis.html
 # include CollectionBuilder info at bottom

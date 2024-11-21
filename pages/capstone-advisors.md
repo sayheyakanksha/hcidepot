@@ -8,7 +8,7 @@ credits: false
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://informatics.indiana.edu/images/programs/programs-informatics-hci-sm.jpg" %} 
+{% include feature/jumbotron.html objectid="/assets/img/capstone-advisors.jpg" heading="The Teaching Team" text="Your project’s biggest cheerleaders." %} 
 
 {% include feature/nav-menu.html sections="About Capstone Advisors;Instructors;Associate Instructors" %}
 

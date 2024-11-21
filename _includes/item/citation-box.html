@@ -3,14 +3,44 @@
     Adds a basic citation box for the item with reference link to the item page.
 
 {%- endcomment -%}
+
 <div class="card">
     <div class="card-header">Source</div>
     <div class="card-body">
         <dl>
             <dt>Preferred Citation:</dt>
-            <dd>"{{ page.title }}", {{ site.title }}, {{ site.organization-name }}</dd>
-            <dt>Reference Link:</dt>
-            <dd>{{ page.url | absolute_url }}</dd>
+            <!-- <dd>"{{ page.creator }}". -->
+                
+            <dd>    
+                {% assign name_parts = page.creator | split: ' ' %}
+                {% assign first_name = name_parts[0] %}
+                {% assign middle_name = name_parts[1] %}
+                {% assign last_name = name_parts | last %}
+
+                {% if name_parts.size == 1 %}
+                    {{ first_name }}, {{ first_name | slice: 0, 1 }}.
+                {% elsif name_parts.size == 2 %}
+                    {{ last_name }}, {{ first_name | slice: 0, 1 }}.
+                {% elsif name_parts.size >= 3 %}
+                    {{ last_name }}, {{ first_name | slice: 0, 1 }}.
+                    {% if middle_name and middle_name != last_name %}
+                        {% if middle_name contains '-' %}
+                            {% assign hyphenated = middle_name | split: '-' %}
+                            {% for part in hyphenated %}
+                                {{ part | slice: 0, 1 }}.
+                            {% endfor %}
+                        {% else %}
+                            {{ middle_name | slice: 0, 1 }}.
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+                ({{ page.date }}). <i>{{ page.title }}</i>. Retrieved from <a target="_blank" rel="noopener" href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>
+            </dd>
+
+            <!-- <dt>Reference Link:</dt> -->
+            <!-- <dd>{{ page.url | absolute_url }}</dd> -->
+            <!-- <dd><a target="_blank" rel="noopener" href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>
+            </dd> -->
         </dl>
     </div>
 </div>

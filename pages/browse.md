@@ -4,4 +4,4 @@ layout: browse
 permalink: /browse.html
 ---
 
-### Browse HCI/d Capstone
+## Browse HCI/d Capstone

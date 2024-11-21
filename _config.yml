@@ -25,7 +25,7 @@ tagline: A collection of capstone projects from past HCI/d students.
 # this description might appear in search result lists, keep around 160 characters max
 description: "Welcome to HCI Capstone Inspiration /depot, featuring capstone projects from past HCI/d students. Get inspired for your next big idea!"
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: hci;capstone;projects; ui; ux
+keywords: hci;capstone;projects;ui;ux
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Akanksha
 
@@ -51,9 +51,18 @@ metadata: hcidepot
 #   To remove the branding, comment out these values, or delete them. 
 #
 organization-name: "Human-Computer Interaction/design"
-organization-link: https://informatics.indiana.edu/programs/ms-hci.html
+organization-link: https://github.com/sayheyakanksha/hcidepot
 organization-logo-banner: /assets/img/hcid-logo-nav.png
 organization-logo-nav: /assets/img/hcid-logo.png
+
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code
+# if present, used to add analytics during "production" build only
+#google-analytics-id:
+
 
 ##########
 # ROBOTS EXCLUDE

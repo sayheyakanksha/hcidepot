@@ -55,53 +55,116 @@ body {
     line-height: 1.5;
 }
 
+p {
+    font-size: inherit;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility
+}
+
+p.card-text {
+    font-size: 1rem;
+    margin-top: 1.2rem;
+}
+
+em,i {
+    font-style: italic;
+    line-height: inherit
+}
+
+b,strong {
+    font-weight: 700;
+    line-height: inherit
+}
+
+small {
+    font-size: 80%;
+    line-height: inherit
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: BentonSansBold,Helvetica,Arial,sans-serif;
-    // font-weight: 400;
-    // font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     // color: #243142;
-    // text-rendering: optimizeLegibility;
-    // // margin-top: 0;
-    // // margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    // margin-bottom: 1.25rem;
     line-height: 1.15
 }
+
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
+    color: #404041;
+    line-height: 0
+}
+
+h1 {
+    font-size: 1.8125rem
+}
+
+h2 {
+    font-size: 1.625rem
+}
+
+h3 {
+    font-size: 1.5rem
+}
+
+h4 {
+    font-size: 1.25rem
+}
+
+h5 {
+    font-size: 1.125rem
+}
+
+h6 {
+    font-size: 1rem
+}
+
+@media screen and (min-width: 40em) {
+    h1 {
+        font-size:2.5625rem
+    }
+
+    h2 {
+        font-size: 2.25rem
+    }
+
+    h3 {
+        font-size: 1.625rem
+    }
+
+    h4 {
+        font-size: 1.4375rem
+    }
+
+    h5 {
+        font-size: 1.125rem
+    }
+
+    h6 {
+        font-size: 1rem
+    }
+}
+
+
+
+
+.rvt-hero__title {
+    font-size: 2.8rem;
+    font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    margin-top: 0.5rem;
+}
+@media screen and (min-width: 46.25em) {
+    .rvt-hero__title {
+        font-size: 2.5625rem;
+    }
+}
+
 
 th {
     width: auto !important;
 }
-
-// h1 small,h2 small,h3 small,h4 small,h5 small,h6 small {
-//     color: #404041;
-//     line-height: 0
-// }
-
-// h1 {
-//     font-size: 2.25rem
-// }
-
-// h2 {
-//     font-size: 1.625rem
-// }
-
-// h3 {
-//     font-size: 1.5rem
-// }
-
-// h4 {
-//     font-size: 1.25rem
-// }
-
-// h5 {
-//     font-size: 1.125rem
-// }
-
-// h6 {
-//     font-size: 1rem
-// }
-
-// p {
-//     font-size: 1.125rem
-// }
 
 .dropdown-item.active{ 
     background: #006298 !important;
@@ -125,4 +188,13 @@ div.dataTables_wrapper div.dataTables_paginate {
     margin: 0;
     white-space: nowrap;
     text-align: right !important;
+}
+
+.navbar {
+    display: block;
+    // padding-top: .75rem;
+    // padding-bottom: .75rem;
+    -webkit-box-shadow: 0 .1875rem .375rem rgba(36, 49, 66, .07);
+    box-shadow: 0 .1875rem .375rem rgba(36, 49, 66, .07);
+    // border-top: 1px solid #e2e7e9;
 }

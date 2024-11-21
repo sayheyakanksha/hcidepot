@@ -1,8 +1,15 @@
 field,display_name,btn,hidden,sort_name
-date,Year,,,Date
-creator,Creator,,,
-subject,,true
-project_type,,true
-project_theme,,true
-location,,true
-identifier,,,true,Identifier
+description,,,,
+creator,By,,,Creator
+date,Year,,true,Year
+term,,true,,
+project_type,,true,,Specializiation Focus
+project_theme,,,true,
+industry_application,,,true,
+user_groups,,,true,
+subject,,,true,
+capstone_advisors,,,true,
+associate_instructors,,,true,
+source,,,true,
+course,,,true,
+objectid,,,true,

@@ -2,19 +2,19 @@ field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
 description,Description,,,DCTERMS.description,description
+project_type,Specialization Focus,true,,DCTERMS.subject,
 course,Course,,,DCTERMS.coverage,
+term,Term,,,DCTERMS.coverage,
 date,Year,,,DCTERMS.date,dateCreated
-term,Semester,,,DCTERMS.coverage,
-capstone_advisors,Capstone Advisors,,,DCTERMS.contributor,
-associate_instructors,Associate Instructors,,,DCTERMS.contributor,
 thesis,Thesis,,true,DCTERMS.relation,
-subject,Subjects,true,,DCTERMS.subject,keywords
 prototype_link,Prototype Link,,true,DCTERMS.relation,
-project_type,Project Type,,true,DCTERMS.subject,
-project_theme,Project Theme,,true,DCTERMS.subject,
-industry_application,Industry Application,,true,DCTERMS.subject,
-user_groups,User Groups,,true,DCTERMS.subject,
+capstone_advisors,Capstone Advisors,true,,DCTERMS.contributor,
+associate_instructors,Associate Instructors,true,,DCTERMS.contributor,
 degree_book,Graduate Degree Book,,true,DCTERMS.relation,
+project_theme,Project Theme,true,,DCTERMS.subject,
+industry_application,Industry Application,true,,DCTERMS.subject,
+user_groups,User Groups,true,,DCTERMS.subject,
+subject,Keywords,true,,DCTERMS.subject,keywords
 source,Source,,,DCTERMS.source,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,

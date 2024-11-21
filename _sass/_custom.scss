@@ -102,3 +102,27 @@ th {
 // p {
 //     font-size: 1.125rem
 // }
+
+.dropdown-item.active{ 
+    background: #006298 !important;
+}
+ 
+.dropdown-item:focus{
+    background: #006298 !important;
+}
+
+.btn-link {
+
+    color: #006298 !important;
+}
+
+.page-item.active .page-link {
+    background-color: #006298 !important;
+    border-color: #006298 !important;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right !important;
+}

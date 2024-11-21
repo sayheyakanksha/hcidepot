@@ -1,11 +1,12 @@
 display_name,stub,dropdown_parent
 Home,/,
 Browse All,/browse.html,
-Browse by Project,,
-Type,/capstone-type.html,Browse by Project
-Theme,/capstone-theme.html,Browse by Project
-Industry Application,/capstone-industry-application.html,Browse by Project
-User Groups,/capstone-user-groups.html,Browse by Project
+Browse by Capstone,,
+Specialization Focus,/capstone-type.html,Browse by Capstone
+Theme,/capstone-theme.html,Browse by Capstone
+Industry Application,/capstone-industry-application.html,Browse by Capstone
+User Groups,/capstone-user-groups.html,Browse by Capstone
+Keywords,/subject.html,Browse by Capstone
 Timeline,/timeline.html,
 Data,,
 Data,/data.html,Data

@@ -2,12 +2,13 @@
 title: Industry Application
 layout: cloud
 permalink: /capstone-industry-application.html
-# Default subject page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.subjects-fields"
-cloud-fields: site.data.theme.subjects-fields
+cloud-fields: industry_application
+cloud-min: 
+cloud-stopwords:
+button: btn btn-outline-iu-blue
 ---
 
-## Browse Subjects
+## Industry Application
 
 
 Use this word cloud visualization to explore capstone project types (e.g., interaction design, user research, service design, academic research) as well as project themes (e.g., accessibility, sustainability, etc.) and relevant categories (e.g., industry applications, user groups). These tags highlight key topics and descriptors from past HCI/d capstone projects, offering insights and inspiration for your own work.

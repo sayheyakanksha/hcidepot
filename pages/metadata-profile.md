@@ -2,7 +2,9 @@
 title: Metadata Profile
 layout: page
 permalink: /metadata-profile.html
+custom-foot: js/table-js.html 
 ---
+
 
 ## Metadata Profile for HCI /depot
 
@@ -11,7 +13,7 @@ The table below shows the metadata application profile (MAP) for the *HCI /depot
 For more details about this MAP, see the project’s [documentation](documentation.html).
 
 <div class="table-responsive">
-    <table id="item-table" class="table table-striped">
+    <table id="item-table11" class="table table-striped">
         <thead>
             <tr>
                 <th>Element Name</th>

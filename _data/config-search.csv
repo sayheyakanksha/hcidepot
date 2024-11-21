@@ -1,10 +1,17 @@
 field,index,display
+objectid, true,true
 title,true,true
 date,true,true
+term,true,true
 creator,true,false
+course,true,false
 description,true,true
 subject,true,true
 project_type,true,true
 project_theme,true,true
-capstone-industry-application,true,true
-capstone-theme,true,true
+industry_application,true,true
+user_groups,true,true
+capstone_advisors,true,true
+associate_instructors,true,true
+source,true,true
+subject,true,true

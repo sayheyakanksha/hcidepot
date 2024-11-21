@@ -8,7 +8,7 @@ credits: false
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## Project-Specific Controlled Vocabularies for HCI /depot
+## Project-Specific Controlled Vocabularies
 This page defines the controlled vocabularies for key metadata fields in the HCI /depot Capstone Collection. These controlled vocabularies will ensure consistency and standardization across capstone project entries in the digital archive.
 
 

@@ -7,6 +7,7 @@ permalink: /subject.html
 cloud-fields: subject
 cloud-min: 
 cloud-stopwords:
+button: btn btn-outline-iu-blue
 ---
 
 ## Browse Keywords

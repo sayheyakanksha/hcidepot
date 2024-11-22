@@ -162,8 +162,13 @@ h6 {
 }
 
 .logo_hcid__title{
-    font-size: 2rem !important; 
+    font-size: 1.8rem !important; 
     font-family: BentonSansRegular, Helvetica, Arial, sans-serif;
+    //margin-bottom: -0.001rem;
+}
+
+.logo_hcid__title_p{
+    font-size: 1rem !important; 
 }
 
 th {

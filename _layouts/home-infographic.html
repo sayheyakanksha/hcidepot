@@ -21,16 +21,17 @@ layout: page
   }
   </style>
  <!-- Welcome Section -->
- <section class="py-4">
+ <section class="py-5">
   <div class="container">
     <div class="row align-items-center">
       <!-- Left Column: Text -->
        <div class="col-lg-8 text-lg-start" style="padding-right: 10rem;">
         <h2 class="" style="padding-right: 10rem;">Welcome to HCI Capstone Inspiration /depot!</h2>
         <p class="">
-          HCI/d students dedicate immense effort to their capstone projects, tackling real-world challenges across various specialization areas. However, finding information on past projects and where to start can often be difficult. Use this space to explore the innovative work of our alumni, spark fresh ideas, and find inspiration for your own creative journey!
+          Your gateway to innovative design solutions, bold ideas, and creative problem-solving.  This collection showcases HCI/d students designing for a better world, with projects spanning diverse themes, technologies, and industries—each with a story to tell and lessons to share.
         </p>
-        <a class="btn btn-iu-crimson" href="{{ '/browse.html' | relative_url }}"><i class="bi bi-arrow-right"></i>See Capstones</a>
+        <br>
+        <a class="btn btn-iu-crimson" href="{{ '/browse.html' | relative_url }}"><i class="bi bi-arrow-right"></i>See Capstone Projects</a>
       </div>
       
       <!-- Right Column: Slider -->
@@ -41,49 +42,21 @@ layout: page
   </div>
 </section>
 
-<section class="py-4">
+<section class="py-5 bg-iu-gray">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <!-- Left Column: Text -->
-      <div class="col-md-4 ">  
-        {% include index/featured-terms.html field="project_type" title="Specialization Focus" btn-color="outline-iu-crimson" custom-link-path="/capstone-type.html" custom-button="View More" %}
-      </div>
-      <div class="col-md-4 ">  
-        {% include index/featured-terms.html field="project_theme" title="Capstone Themes" btn-color="outline-iu-crimson" custom-link-path="/capstone-theme.html" 
-        custom-button="View More" %}
-      </div>
-      <div class="col-md-4 ">  
-        {% include index/featured-terms.html field="user_groups" title="User Groups" btn-color="outline-iu-crimson" custom-link-path="/capstone-user-groups.html" custom-button="View More" %}
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-4 my-4 bg-iu-blue text-white" style="border: 1px solid rgba(0, 0, 0, .125);border-radius: .25rem;">
-    <div class="row justify-content-center">
-      <div class="col-lg-12 text-center" style="padding: 5rem;">
-        <h2>Discover the Story Behind the Capstone Collection</h2>
-        <p>
-          Find out what the course is all about, get a glimpse into the Capstone Thesis Program, and explore the creativity and hard work that went into building this collection. 
+       <div class="col-lg-8 text-lg-start" style="padding-right: 10rem;">
+        <h2 class="" style="padding-right: 10rem;">About the Collection</h2>
+        <p class="">
+          HCI /depot is a digital archive featuring innovative projects by past graduate students in IU’s HCI/d program. This collection centralizes posters, documentation, and prototypes, offering easy access to years of creative and impactful design solutions.
         </p>
-        <a class="btn btn-iu-cream mt-3" href="{{ '/about.html' | relative_url }}"><i class="bi bi-arrow-right"></i>Learn More</a>
+        <br>
+        <a class="btn btn-iu-crimson" href="{{ '/about.html' | relative_url }}"><i class="bi bi-arrow-right"></i>Learn More</a>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">  
-        {% include index/featured-terms.html field="industry_application" title="Industry Application" btn-color="outline-iu-crimson" custom-link-path="/capstone-theme.html" 
-        custom-button="View More" %}
-      </div>
-      <div class="col-md-4">  
-        {% include index/featured-terms.html field="project_theme" title="Keywords" btn-color="outline-iu-crimson" custom-link-path="/subject.html" 
-        custom-button="View More" %}
-      </div>
-      <div class="col-md-4">  
+      
+      <!-- Right Column: Slider -->
+       <div class="col-lg-4">
         {% include index/time.html %}
         {% include index/objects.html %}
       </div>
@@ -91,6 +64,30 @@ layout: page
   </div>
 </section>
 
+
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+       <div class="col-lg-8 text-lg-start" style="padding-right: 10rem;">
+        <h2 class="" style="padding-right: 10rem;">Discover with a Focused Lens</h2>
+        <p class="">
+          Explore interactive tag clouds highlighting capstone focus areas,user groups, industry applications, and design themes to uncover new perspectives and insights.
+        </p>
+        <br>
+        <a class="btn btn-iu-crimson" href="{{ '/capstone-type.html' | relative_url }}"><i class="bi bi-arrow-right"></i>Discover More Insights</a>
+      </div>
+      
+      <!-- Right Column: Slider -->
+       <div class="col-lg-4">
+        {% include index/featured-terms.html field="project_type" title="Specialization Focus" btn-color="outline-iu-crimson" %}
+        {% include index/featured-terms.html field="user_groups" title="Top User Groups" btn-color="outline-iu-crimson" %}
+        <!-- {% include index/featured-terms.html field="project_theme" title="Capstone Themes" btn-color="outline-iu-crimson" custom-link-path="/capstone-theme.html" 
+        custom-button="View More" %} -->
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- <div class="col-md-12">
 

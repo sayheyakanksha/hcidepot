@@ -10,7 +10,7 @@ custom-foot: js/table-js.html
 
 The table below shows the metadata application profile (MAP) for the *HCI /depot* collection, which will help you understand how to structure and categorize data in this collection for future additions.
 
-For more details about this MAP, see the project’s [documentation](documentation.html).
+For more details about this MAP, see the project’s [documentation](documentation.html). You can also explore the full metadata schema used in this collection on [Google Sheets](https://docs.google.com/spreadsheets/d/1qUCqv0rk_ph8SrMQkHp7OMeE8_2yHXlTcDQSm65c25Q/edit?usp=sharing).
 
 <div class="table-responsive">
     <table id="item-table11" class="table table-striped">

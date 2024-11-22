@@ -43,10 +43,15 @@
 <div class="card mb-3">
     {% if include.header %}<h2 class="card-header h5">{{ include.header }}</h2>{% endif %}
     <div class="card-body">
-        {% if include.title %}<h2 class="card-title h5">{{ include.title }}</h2>{% endif %}
+        {% if include.title %}<h2 class="card-title h5 home-widgets">{{ include.title }}</h2>{% endif %}
         <p class="card-text">
             {% for s in topTerms %}
             <a class="btn btn-sm btn-{{ include.btn-color | default: 'primary' }} m-1" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a>{% endfor %}
         </p>
+        {% if include.custom-link-path %}
+            <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ include.custom-link-path | relative_url }}">
+                <i class="bi bi-arrow-right"></i>{{ include.custom-button | default: "View More" }} 
+            </a>
+        {% endif %}
     </div>
 </div>

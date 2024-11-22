@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name
-description,,,,
-creator,By,,,Creator
+creator,Creator,,,Creator
+description,Description,,,
 date,Year,,true,Year
 term,,true,,
 project_type,,true,,Specializiation Focus

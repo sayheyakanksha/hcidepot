@@ -3,57 +3,101 @@
 layout: page
 ---
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-
- <!-- Welcome Section
- <section class="bg-light py-5">
+<style>
+  #home-banner-middle {
+      background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.data.featured_item.src | relative_url }}');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
+  }
+  #home-title-box-mid-middle {
+      padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
+      padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
+  }
+  @media screen and (max-width: 576px) {
+      #home-title-box-middle {
+          max-height: 500px;
+      }
+  }
+  </style>
+ <!-- Welcome Section -->
+ <section class="py-4">
   <div class="container">
-      <div class="row align-items-center"> -->
-          <!-- Left Column: Text -->
-          <!-- <div class="col-lg-6 text-center text-lg-start">
-              <h2 class="display-4 fw-bold">Welcome Hoosiers</h2>
-              <p class="lead">
-                  Discover a world of tradition, innovation, and community. Join us to explore endless opportunities and be part of something bigger.
-              </p>
-              <a href="#explore" class="btn btn-iu-crimson mt-3">See Capstones</a>
-          </div> -->
-
-          <!-- Right Column: Image -->
-          <!-- <div class="col-lg-6 text-center">
-              <img src="https://via.placeholder.com/500x300" alt="IU Bloomington" class="img-fluid rounded">
-          </div>
+    <div class="row align-items-center">
+      <!-- Left Column: Text -->
+       <div class="col-lg-8 text-lg-start" style="padding-right: 10rem;">
+        <h2 class="" style="padding-right: 10rem;">Welcome to HCI Capstone Inspiration /depot!</h2>
+        <p class="">
+          HCI/d students dedicate immense effort to their capstone projects, tackling real-world challenges across various specialization areas. However, finding information on past projects and where to start can often be difficult. Use this space to explore the innovative work of our alumni, spark fresh ideas, and find inspiration for your own creative journey!
+        </p>
+        <a class="btn btn-iu-crimson" href="{{ '/browse.html' | relative_url }}"><i class="bi bi-arrow-right"></i>See Capstones</a>
       </div>
+      
+      <!-- Right Column: Slider -->
+       <div class="col-lg-4 text-center">
+        {% include index/carousel.html title="" %}
+      </div>
+    </div>
   </div>
-</section> -->
+</section>
 
-<div class="row">
-
-  <div class="col-md-8">
-
-    {% include index/description.html %}
-    {% include index/carousel.html title="Recently Added" %}
-    
+<section class="py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Left Column: Text -->
+      <div class="col-md-4 ">  
+        {% include index/featured-terms.html field="project_type" title="Specialization Focus" btn-color="outline-iu-crimson" custom-link-path="/capstone-type.html" custom-button="View More" %}
+      </div>
+      <div class="col-md-4 ">  
+        {% include index/featured-terms.html field="project_theme" title="Capstone Themes" btn-color="outline-iu-crimson" custom-link-path="/capstone-theme.html" 
+        custom-button="View More" %}
+      </div>
+      <div class="col-md-4 ">  
+        {% include index/featured-terms.html field="user_groups" title="User Groups" btn-color="outline-iu-crimson" custom-link-path="/capstone-user-groups.html" custom-button="View More" %}
+      </div>
+    </div>
   </div>
-  <div class="col-md-4">  
+</section>
 
-    {% include index/time.html %}
-
-    {% include index/featured-terms.html field="project_type" title="Specialization Focus" btn-color="outline-iu-crimson" %}
-
-    <!-- {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %} -->
-    
-    {% include index/objects.html %}
-
+<section class="py-4 my-4 bg-iu-blue text-white" style="border: 1px solid rgba(0, 0, 0, .125);border-radius: .25rem;">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center" style="padding: 5rem;">
+        <h2>Discover the Story Behind the Capstone Collection</h2>
+        <p>
+          Find out what the course is all about, get a glimpse into the Capstone Thesis Program, and explore the creativity and hard work that went into building this collection. 
+        </p>
+        <a class="btn btn-iu-cream mt-3" href="{{ '/about.html' | relative_url }}"><i class="bi bi-arrow-right"></i>Learn More</a>
+      </div>
+    </div>
   </div>
-  <div class="col-md-12">
+</section>
 
-    {% include index/acknowledgements.html %}
-
+<section class="py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">  
+        {% include index/featured-terms.html field="industry_application" title="Industry Application" btn-color="outline-iu-crimson" custom-link-path="/capstone-theme.html" 
+        custom-button="View More" %}
+      </div>
+      <div class="col-md-4">  
+        {% include index/featured-terms.html field="project_theme" title="Keywords" btn-color="outline-iu-crimson" custom-link-path="/subject.html" 
+        custom-button="View More" %}
+      </div>
+      <div class="col-md-4">  
+        {% include index/time.html %}
+        {% include index/objects.html %}
+      </div>
+    </div>
   </div>
+</section>
 
-  <div class="col-md-12">
+
+  <!-- <div class="col-md-12">
 
     {% include index/data-download.html %}
 
-  </div>
+          
+      {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %} 
 
-</div>
+
+  </div> -->

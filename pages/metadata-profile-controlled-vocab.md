@@ -34,6 +34,8 @@ This page defines the controlled vocabularies for key metadata fields in the HCI
 - `Wearable Technology`
 - `Sustainability`
 - `Hobby Electronics`
+- `Education`
+- `Healthcare`
 
 
 ### Industry Application
@@ -54,6 +56,21 @@ This page defines the controlled vocabularies for key metadata fields in the HCI
 - `Sustainability`
 - `Agriculture`
 - `Marketing`
+- `Academic Research`
+- `Collaboration Tools`
+- `Corporate Wellness`
+- `Creative Thinking`
+- `Fitness`
+- `Freelance Economy`
+- `Mental Health`
+- `Music Production`
+- `Pet Care`
+- `Publishing`
+- `Remote Work`
+- `Safety Technology`
+- `Travel`
+- `Wearable Technology`
+- `Wellness`
 
 
 ### User Groups
@@ -77,3 +94,20 @@ This page defines the controlled vocabularies for key metadata fields in the HCI
 - `Gamers`
 - `Retail Customers`
 - `Wearable Technology Users`
+- `Beginners`
+- `Book Designers`
+- `Caregivers`
+- `Designers`
+- `Environmentally Conscious Consumers`
+- `Fitness Enthusiasts`
+- `Freelancers`
+- `Highly Sensitive Persons (HSPS)`
+- `Indie Writers`
+- `Music Producers`
+- `Pet Owners`
+- `Remote Teams`
+- `Remote Workers`
+- `Tech Professionals`
+- `Transportation Professionals`
+- `Travel Enthusiasts`
+- `Veterinarians`

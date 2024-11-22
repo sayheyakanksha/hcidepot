@@ -426,12 +426,12 @@ For more details about this MAP, see the project’s [documentation](documentati
                     <td><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/" target="_blank">Identifier</a></td>
                     <td>Optional</td>
                     <td>1</td>
-                    <td>To be added</td>
+                    <td>Use format: <span class="fw-bold">[Name of the physical place]_objectid</span></td>
                     <td></td>
                     <td>
-                        <!-- <ul>
-                            <li><code></code></li>
-                        </ul> -->
+                        <ul>
+                            <li><code>HCIStudio_capstone_2024_akanksha</code></li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

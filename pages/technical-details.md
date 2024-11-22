@@ -67,6 +67,7 @@ If you experience any issues or have feedback on improving accessibility, please
 - [Date and Time Formats](https://www.w3.org/TR/NOTE-datetime) 
 - [CollectionBuilder](https://collectionbuilder.github.io/cb-docs/) 
 - [Elden Ring, Bandai Namco Entertainment](https://en.bandainamcoent.eu/elden-ring/elden-ring)
+- [Pixar Characters, The Walt Disney Company](https://disney.fandom.com/wiki/Category:Pixar_characters)
 - [Coloors](https://coolors.co/)
 - [Z652 Digital Libraries, Fall 2024](https://jawalsh.github.io/z652-Digital-Libraries-FA24/)
 - [Comic Book Paratexts](https://biblicon.org/cbp/)

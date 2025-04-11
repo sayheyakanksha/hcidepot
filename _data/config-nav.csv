@@ -1,18 +1,13 @@
 display_name,stub,dropdown_parent
 Home,/,
 Capstone Gallery,/browse.html,
-Browse by Capstone,,
-Specialization Focus,/capstone-type.html,Browse by Capstone
-Theme,/capstone-theme.html,Browse by Capstone
-Industry Application,/capstone-industry-application.html,Browse by Capstone
-User Groups,/capstone-user-groups.html,Browse by Capstone
-Keywords,/subject.html,Browse by Capstone
-Timeline,/timeline.html,
-Data,,
-Data,/data.html,Data
-Documentation,/documentation.html,Data
-Metadata Profile,/metadata-profile.html,Data
-Controlled Vocabulary,/metadata-profile-controlled-vocab.html,Data
+Explore Capstones,,
+Specialization Focus,/capstone-type.html,Explore Capstones
+Theme,/capstone-theme.html,Explore Capstones
+Industry Application,/capstone-industry-application.html,Explore Capstones
+User Groups,/capstone-user-groups.html,Explore Capstones
+Keywords,/subject.html,Explore Capstones
+Timeline View,/timeline.html,
 About,,
 HCI /depot,/about.html,About
 I695 Capstone Thesis,/i695-capstone-thesis.html,About

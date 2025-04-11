@@ -4,6 +4,6 @@ layout: timeline
 permalink: /timeline.html
 ---
 
-## Capstone Collection Timeline
+## Timeline View
 
- A chronological view of past HCI/d capstone projects on a timeline. Each year represents when a project was completed and showcased.
+A chronological view of past HCI/d student capstones. Each year highlights when projects were completed and showcased. Use the "Jump to Year" dropdown to quickly explore capstones from a specific cohort.  

@@ -225,3 +225,9 @@ div.dataTables_wrapper div.dataTables_paginate {
 h2.card-title.h5.home-widgets {
     margin-bottom: 1rem !important;
 }
+
+.custom-placeholder::placeholder {
+    font-size: 0.85rem;
+    opacity: 0.6; /* 0 = fully transparent, 1 = fully opaque */
+    color: #6c757d; /* Optional: muted Bootstrap grey */
+  }

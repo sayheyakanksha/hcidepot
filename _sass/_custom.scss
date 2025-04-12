@@ -61,11 +61,6 @@ p {
     text-rendering: optimizeLegibility
 }
 
-// p.card-text {
-//     font-size: 1rem;
-//     margin-top: 0.9rem;
-// }
-
 em,i {
     font-style: italic;
     line-height: inherit
@@ -230,4 +225,22 @@ h2.card-title.h5.home-widgets {
     font-size: 0.85rem;
     opacity: 0.6; /* 0 = fully transparent, 1 = fully opaque */
     color: #6c757d; /* Optional: muted Bootstrap grey */
+  }
+
+  .accordion {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  @media (min-width: 768px) {
+    .pe-md-10 {
+      padding-right: 10rem !important;
+    }
+
+  }
+  
+  @media (min-width: 992px) {
+    .pe-lg-10 {
+      padding-right: 10rem !important;
+    }
   }

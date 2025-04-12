@@ -1,5 +1,5 @@
 ---
-title: Capstone Type
+title: Specialization Focus
 layout: cloud
 permalink: /capstone-type.html
 # Default subject page is configured in "_data/theme.yml"

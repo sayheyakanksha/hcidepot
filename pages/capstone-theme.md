@@ -1,5 +1,5 @@
 ---
-title: Theme
+title: Capstone Themes
 layout: cloud
 permalink: /capstone-theme.html
 cloud-fields: project_theme

@@ -1,5 +1,5 @@
 ---
-title: People
+title: Contributors
 layout: about
 permalink: /contributors.html
 # include CollectionBuilder info at bottom

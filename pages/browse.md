@@ -1,5 +1,5 @@
 ---
-title: Browse
+title: Capstone Gallery
 layout: browse
 permalink: /browse.html
 ---

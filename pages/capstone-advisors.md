@@ -1,5 +1,5 @@
 ---
-title: About Capstone Advisors
+title: Capstone Advisors
 layout: about
 permalink: /capstone-advisors.html
 # include CollectionBuilder info at bottom

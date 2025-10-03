@@ -4,6 +4,8 @@
 
 The HCI Capstone Inspiration /depot (HCI/d : get it?) is a digital library showcasing past capstone projects completed by second-year graduate students in the [Human-Computer Interaction/design (HCI/d) program](https://informatics.indiana.edu/programs/ms-hci.html) at the Luddy School of Informatics, Computing, and Engineering at [Indiana University Bloomington](https://bloomington.iu.edu/index.html). These projects are part of the I694 HCI/d Capstone Thesis course, which students take during their final semester. Currently, there is no centralized archive for these projects, and this collection aims to fill that gap by providing easy access to digitized versions of posters, project documentation, and design prototypes.
 
+[View Live Website ↗](https://sayheyakanksha.com/hcidepot/)
+
 ## Content
 
 The collection contains a variety of materials such as: 
